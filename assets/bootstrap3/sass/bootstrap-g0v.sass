@@ -1,0 +1,56 @@
+$red: #DC202A
+$black: #282828
+$green: #287F69
+$grey: #E0E0E0
+$blue: #28637F
+
+$brand: $green
+$brand2: darken($red, 5%)
+$link: lighten($green, 20%)
+$hover: lighten($link, 20%)
+
+$text: $black
+$invertText: #fff
+
+body
+  color: $text
+  background: $grey
+
+a,
+a:link,
+a:visited
+  color: $green
+
+.btn
+  border-radius: 3px
+  box-shadow: -1px 2px 3px rgba(30,30,30,0.5), 5px 20px 10px rgba(0,0,0,0.1)
+.btn.btn-primary
+  background: $brand
+  color: $invertText
+
+.navbar
+  border-radius: 0
+  margin-bottom: 50px
+
+.navbar-default
+  border-color: $grey
+  background: $black
+  .navbar-nav > li
+    & > a,
+    & > a:focus,
+    & > a:visited
+      color: $link
+      &:hover
+        color: $hover
+    &.active > a,
+    &.active > a:focus,
+    &.active > a:visited
+      color: $brand
+      background: $grey
+
+.jumbotron
+  border-radius: 0
+.container .jumbotron
+  border-radius: 0
+.jumbotron.jumbotron-default
+  border-left: 20px solid $brand2
