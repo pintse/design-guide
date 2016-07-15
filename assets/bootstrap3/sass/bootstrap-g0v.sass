@@ -4,8 +4,12 @@ $green: #287F69
 $grey: #E0E0E0
 $blue: #28637F
 
+// the brand color
 $brand: $green
+
+// the second brand color
 $brand2: darken($red, 5%)
+
 $link: lighten($green, 20%)
 $hover: lighten($link, 20%)
 
@@ -21,9 +25,13 @@ a:link,
 a:visited
   color: $green
 
+.shadow-1
+  box-shadow: 0px 20px 50px rgba(0,0,0,0.2)
+
 .btn
   border-radius: 3px
-  box-shadow: -1px 2px 3px rgba(30,30,30,0.5), 5px 20px 10px rgba(0,0,0,0.1)
+  box-shadow: -2px -2px 3px rgba(30,30,30,0.3)
+
 .btn.btn-primary
   background: $brand
   color: $invertText
@@ -54,3 +62,27 @@ a:visited
   border-radius: 0
 .jumbotron.jumbotron-default
   border-left: 20px solid $brand2
+
+
+
+// g0v extra
+.g0v-footer
+  padding: 30px
+.g0v-footer
+  color: $grey
+  background: $black
+  h2
+    margin: 5px 0 10px 0
+    padding: 0
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+
+.g0v-copyright
+  padding: 3px 5px
+  color: $grey
+  background: darken($black, 10%)
+  
+
+
