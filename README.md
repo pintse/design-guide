@@ -10,8 +10,6 @@ This repository is for design guide and bootstrap v3 css for all g0v websites
 
 ## CIS Colors
 
-Unfortunately GitHub doesn't support color block, so here are the color codes:
-
 - <img src="color-samples/DC202A.png" width="14" height="14" /> #DC202A red
 - <img src="color-samples/282828.png" width="14" height="14" /> #282828 black
 - <img src="color-samples/287F69.png" width="14" height="14" /> #287F69 green
@@ -21,4 +19,9 @@ Unfortunately GitHub doesn't support color block, so here are the color codes:
 ## Roadmap
 
 - [ ] Bootstrap V3 CSS.
+- [ ] Bootstrap V4 CSS.
 - [ ] Main Page.
+
+## Author
+
+Yo-An Lin <yoanlin93@gmail.com>
