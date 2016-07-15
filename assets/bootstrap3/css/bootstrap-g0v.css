@@ -12,7 +12,7 @@ a:visited {
 
 .btn {
   border-radius: 3px;
-  box-shadow: -2px -2px 3px rgba(30, 30, 30, 0.3); }
+  box-shadow: 2px 2px 3px rgba(30, 30, 30, 0.3); }
 
 .btn.btn-primary {
   background: #287F69;
@@ -22,8 +22,12 @@ a:visited {
   border-radius: 0;
   margin-bottom: 50px; }
 
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: none; }
+
 .navbar-default {
-  border-color: #E0E0E0;
+  border: none;
   background: #282828; }
   .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:visited {
     color: #48c5a6; }
