@@ -10,11 +10,13 @@ This repository is for design guide and bootstrap v3 css for all g0v websites
 
 ## CIS Colors
 
-<div style="width: 32px; height: 32px; background: rgb(220,32,42);"> </div>
-<div style="width: 32px; height: 32px; background: rgb(40,40,40);"> </div>
-<div style="width: 32px; height: 32px; background: rgb(224,224,224);"> </div>
-<div style="width: 32px; height: 32px; background: rgb(40,127,105);"> </div>
-<div style="width: 32px; height: 32px; background: rgb(40,99,127);"> </div>
+Unfortunately GitHub doesn't support color block, so here are the color codes:
+
+- #DC202A red
+- #282828 black
+- #287F69 green
+- #E0E0E0 grey
+- #28637F ocean blue
 
 ## Roadmap
 
