@@ -1,0 +1,23 @@
+{
+  "repo" :"design-guide",
+  "author" : "Yo-An Lin",
+  "status" : "Beta",
+  "name": "g0v design-guide",
+  "name_zh": "g0v design-guide",
+  "description": "g0v design-guide",
+  "description_zh": "g0v design-guide",
+  "homepage" : "",
+  "thumbnail" : "",
+  "document": "",
+  "repository": "https://github.com/g0v/design-guide",
+  "licenses": ["CC0 1.0"],
+  "keywords": [
+  ],
+  "audience": [
+    "public"
+  ],
+  "products" :[],
+  "partOf": "",
+  "contributors" :[],
+  "needs" : []
+}
